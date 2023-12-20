@@ -12,7 +12,7 @@ def connect_to_database():
         connection = mysql.connector.connect(
             host='107.0.0.1',
             port=3306,
-            database='dbt13',
+            database='dbt11',
             user='root'
         )
         return connection
